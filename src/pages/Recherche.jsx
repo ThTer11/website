@@ -12,7 +12,7 @@ export default function Recherches() {
 
     // Fonction pour récupérer le fichier .bib
     const openBib = async () => {
-        const response = await fetch("/bibs/pericles_1945510059.bib");
+        const response = await fetch(`${process.env.PUBLIC_URL}/bibs/pericles_1945510059.bib`);
         const text = await response.text();
         setBibText(text);
         setShowModal(true);

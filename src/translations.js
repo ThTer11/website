@@ -1,10 +1,10 @@
 const translations = {
   fr: {
     nav: {
-      home: "Accueil et contact",
+      home: "Accueil & Contact",
       research: "Recherche",
       teaching: "Enseignements",
-      conferences: "Exposés et conférences"
+      conferences: "Exposés & Conférences"
     },
     home: {
       name: "Théo Ternier",
@@ -29,30 +29,30 @@ const translations = {
     teaching: {
       title: "Enseignements",
       teach1: {
-          title: "UE MEU102 : Algèbre et géométrie", 
-          desc1: "L1 Mathématiques",
-          title2: "UE Math257 : Équations différentielles", 
-          desc2: "L2 Physique",
-          title3: "UE PCEU151 : Algèbre et géométrie", 
-          desc3: "L1 Physique",
-          title4: "H&K", 
-          desc4: `Je suis, depuis 2025, auteur de corrigés d’annales des concours de CPGE pour les éditions H&K. La liste des corrigés d’annales auxquels j’ai participé est disponible <a class="text-blue-500" target="_blank" href="https://www.h-k.fr/theo.ternier" rel="noopener noreferrer">ici</a>.`
+        title: "UE MEU102 : Algèbre et géométrie", 
+        desc1: "L1 Mathématiques",
+        title2: "UE Math257 : Équations différentielles", 
+        desc2: "L2 Physique",
+        title3: "UE PCEU151 : Algèbre et géométrie", 
+        desc3: "L1 Physique",
+        title4: "H&K", 
+        desc4: `Depuis 2025, je suis auteur de corrigés d’annales des concours de CPGE pour les éditions H&K. La liste des corrigés d’annales auxquels j’ai participé est disponible <a class="text-blue-500" target="_blank" href="https://www.h-k.fr/theo.ternier" rel="noopener noreferrer">ici</a>.`
       },
       teach2: {
-          title: "Colles en MP", 
-          desc1: "Lycée Pasteur (Neuilly)",
-          title2: "Colles en ECG Maths Appliquées", 
-          desc2: "Lycée Carnot (Paris)",
-          title3: "Cours particuliers Terminale Maths complémentaires", 
-          desc3: "Le document joint contient des exercices de niveau Terminale et des annales de BAC.",
+        title: "Colles et cours particuliers", 
+        desc1: "Colles en MP - Lycée Pasteur (Neuilly)",
+        title2: "Colles en ECG Maths Appliquées", 
+        desc2: "Lycée Carnot (Paris)",
+        title3: "Cours particuliers Terminale Maths complémentaires", 
+        desc3: "Exercices et annales de niveau Terminale et BAC."
       },
       teach3: {
         title: "Agrégation", 
-        desc: `Mon profil agreg-maths est trouvable <a class="text-blue-500" target="_blank" href="https://test.com" rel="noopener noreferrer">ici</a>.`,
-      },
+        desc: `Mon profil agreg-maths est disponible <a class="text-blue-500" target="_blank" href="https://test.com" rel="noopener noreferrer">ici</a>.`
+      }
     },
     conferences: {
-      title: "Exposés et conférences",
+      title: "Exposés & Conférences",
       year2025: "2025",
       conf1Title: "Médiation scientifique à l'Inria Saclay",
       conf1Desc: "Vulgarisation de mes recherches actuelles et initiation d’élèves de seconde à l’étude des arbres."
@@ -70,7 +70,7 @@ const translations = {
       name: "Théo Ternier",
       job: "PhD Student in Computer Algebra",
       workplace: "Inria Saclay",
-      description: `I am currently a PhD student in the MATHEXP team at Inria Saclay, under the supervision of <a class="text-blue-500" target="_blank" href="https://test.com" rel="noopener noreferrer">Frédéric Chyzak</a> and <a class="text-blue-500" target="_blank" href="https://test.com" rel="noopener noreferrer">Pierre Lairez</a>, I am interested in computer algebra, and more specifically in the study of signature-based Gröbner bases, as well as computer science.`,
+      description: `I am currently a PhD student in the MATHEXP team at Inria Saclay, under the supervision of <a class="text-blue-500" target="_blank" href="https://test.com" rel="noopener noreferrer">Frédéric Chyzak</a> and <a class="text-blue-500" target="_blank" href="https://test.com" rel="noopener noreferrer">Pierre Lairez</a>. My research focuses on computer algebra, especially signature-based Gröbner bases, as well as computer science.`,
       educationTitle: "Academic background",
       education: [
         { year: "2023 - 2024", title: "M2 Applied Algebra", school: "UVSQ" },
@@ -82,39 +82,41 @@ const translations = {
     },
     research: {
       title: "Publications",
+      year2024: "2024",
       pub1Title: "Three‐dimensional multiscale assembly of phyllosilicates, organics, and carbonates in small Ryugu fragments",
       pub1Authors: "Zelia Dionnet, Stefano Rubino, Alice Aléon‐Toppani, Rosario Brunetto, Akira Tsuchiyama, Cateline Lantz, Zahia Djouadi, Donia Baklouti, Tomoki Nakamura, Ferenc Borondics, Christophe Sandt, Eva Heripre, David Troadec, Obadias Mivumbi, Jérome Aléon, Théo Ternier, Megumi Matsumoto, Kana Amano, Tomoyo Morita, Hisayoshi Yurimoto, Takaaki Noguchi, Ryuji Okazaki, Hikaru Yabuta, Hiroshi Naraoka, Kanako Sakamoto, Shogo Tachibana, Toru Yada, Masahiro Nishimura, Aiko Nakato, Akiko Miyazaki, Kasumi Yogata, Masanao Abe, Tatsuaki Okada, Tomohiro Usui, Makoto Yoshikawa, Takanao Saiki, Satoshi Tanaka, Fuyuto Terui, Satoru Nakazawa, Seiichiro Watanabe, Yuichi Tsuda, Hayabusa2‐Initial‐Analysis Stone team"
     },
     teaching: {
       title: "Teaching",
       teach1: {
-          title: "UE MEU102 : Algèbre et géométrie", 
-          desc1: "L1 Mathématiques",
-          title2: "UE Math257 : Équations différentielles", 
-          desc2: "L2 Physique",
-          title3: "UE PCEU151 : Algèbre et géométrie", 
-          desc3: "L1 Physique",
-          title4: "H&K", 
-          desc4: `Je suis, depuis 2025, auteur de corrigés d’annales des concours de CPGE pour les éditions H&K. La liste des corrigés d’annales auxquels j’ai participé est disponible <a class="text-blue-500" target="_blank" href="https://test.com" rel="noopener noreferrer">ici</a>.`
+        title: "UE MEU102: Algebra & Geometry", 
+        desc1: "L1 Mathematics",
+        title2: "UE Math257: Differential Equations", 
+        desc2: "L2 Physics",
+        title3: "UE PCEU151: Algebra & Geometry", 
+        desc3: "L1 Physics",
+        title4: "H&K", 
+        desc4: `Since 2025, I have been an author of CPGE exam solutions for H&K editions. The list of solutions I contributed to is available <a class="text-blue-500" target="_blank" href="https://www.h-k.fr/theo.ternier" rel="noopener noreferrer">here</a>.`
       },
       teach2: {
-          title: "Colles en MP", 
-          desc1: "Lycée Pasteur (Neuilly)",
-          title2: "Colles en ECG Maths Appliquées", 
-          desc2: "Lycée Carnot (Paris)",
-          title3: "Cours particuliers Terminale Maths complémentaires", 
-          desc3: "Le document joint contient des exercices de niveau Terminale et des annales de BAC.",
+        title: "Colles & Private Lessons", 
+        desc1: "Colles in MP - Lycée Pasteur (Neuilly)",
+        title2: "Colles in ECG Applied Maths", 
+        desc2: "Lycée Carnot (Paris)",
+        title3: "Terminale Maths Complementary Lessons", 
+        desc3: "Exercises and past BAC papers."
       },
       teach3: {
         title: "Agrégation", 
-        desc: `Mon profil agreg-maths est trouvable <a class="text-blue-500" target="_blank" href="https://test.com" rel="noopener noreferrer">ici</a>.`,
-      },
+        desc: `My agreg-maths profile is available <a class="text-blue-500" target="_blank" href="https://test.com" rel="noopener noreferrer">here</a>.`
+      }
+    },
     conferences: {
       title: "Talks & Conferences",
+      year2025: "2025",
       conf1Title: "Scientific Mediation at Inria Saclay",
-      conf1Desc: "Vulgarization of my current research and introduction of high school students to the study of trees."
+      conf1Desc: "Popularization of my current research and initiation of high school students to tree studies."
     }
-  }
   }
 };
 
