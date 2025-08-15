@@ -29,7 +29,7 @@ function LangWrapper({ children }) {
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/fr" replace />} />
+      <Route path="/" element={<Navigate to="/fr/" replace />} />
       <Route path="/:lang" element={<LangWrapper><Home /></LangWrapper>} />
       <Route path="/:lang/recherche" element={<LangWrapper><Recherche /></LangWrapper>} />
       <Route path="/:lang/enseignements" element={<LangWrapper><Enseignements /></LangWrapper>} />

@@ -27,8 +27,18 @@ export default function NavBar() {
     const changeLang = (newLang) => {
         setLang(newLang);
         setTranslations(false);
-        const pathWithoutLang = window.location.pathname.split('/').slice(2).join('/');
-        navigate(`/${newLang}/${pathWithoutLang}`);
+
+        let pathParts = window.location.pathname.split('/').filter(Boolean);
+
+        // Si hébergé sur GitHub Pages → retirer le nom du repo
+        if (pathParts[0] === 'website') {
+            pathParts.shift();
+        }
+
+        // Retirer l'ancienne langue
+        pathParts.shift();
+
+        navigate(`/${newLang}/${pathParts.join('/')}`);
     };
 
     return (
