@@ -69,10 +69,10 @@ export default function NavBar() {
             
             {menu && (
                 <div className="fixed top-[53px] left-0 w-full border-b bg-white/50 dark:bg-[#252525]/50 border-gray-700 backdrop-blur-sm lg:hidden flex flex-col animate-deroule overflow-hidden shadow-xl z-[1000]">
-                    <NavLink to={`/${lang}/`} className={({ isActive }) => `transition m-2 ${isActive ? 'dark:text-white text-black' : 'text-gray-500 dark:hover:text-white hover:text-black'}`}>Accueil et contact</NavLink>
+                    <NavLink to={`/${lang}/`} end className={({ isActive }) => `transition m-2 ${isActive ? 'dark:text-white text-black' : 'text-gray-500 dark:hover:text-white hover:text-black'}`}>Accueil et contact</NavLink>
                     <NavLink to={`/${lang}/recherche`} className={({ isActive }) => `transition m-2 ${isActive ? 'dark:text-white text-black' : 'text-gray-500 dark:hover:text-white hover:text-black'}`}>Recherche</NavLink>
                     <NavLink to={`/${lang}/enseignements`} className={({ isActive }) => `transition m-2 ${isActive ? 'dark:text-white text-black' : 'text-gray-500 dark:hover:text-white hover:text-black'}`}>Enseignements</NavLink>
-                    <NavLink to={`/${lang}/conférences`} className={({ isActive }) => `transition m-2 ${isActive ? 'dark:text-white text-black' : 'text-gray-500 dark:hover:text-white hover:text-black'}`}>Exposés et conférences</NavLink>
+                    <NavLink to={`/${lang}/conferences`} className={({ isActive }) => `transition m-2 ${isActive ? 'dark:text-white text-black' : 'text-gray-500 dark:hover:text-white hover:text-black'}`}>Exposés et conférences</NavLink>
                 </div>
             )}
         </div>

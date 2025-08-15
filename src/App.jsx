@@ -35,7 +35,7 @@ export default function App() {
   return (
     <Routes>
       {/* Redirection par défaut */}
-      <Route path="/" element={<Navigate to="/fr" replace />} />
+      <Route path="/" element={<Navigate to="/fr/" replace />} />
 
       {/* Pages principales */}
       <Route path="/:lang" element={<LangWrapper><Home /></LangWrapper>} />
